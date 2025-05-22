@@ -11,4 +11,5 @@ kernel_headers {
     name: "generated_kernel_headers",
     export_include_dirs: ["include"],
     vendor: true,
+    recovery_available: true,
 }
